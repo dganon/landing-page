@@ -21,6 +21,7 @@ ul {
 img {
     width: auto;
     height: 250px;
+    border-radius: 8px;
 }
 
 button {
@@ -30,6 +31,15 @@ button {
     border-radius: 8px;
     padding: 8px 16px;
     margin: 10px 0;
+}
+
+button a {
+    text-decoration-line: none;
+}
+
+button:hover {
+    box-shadow: 3px 3px 3px #E5E7EB;
+    color: #1F2937;
 }
 
 quote {
@@ -67,6 +77,14 @@ p {
     margin: 15px 0;
 }
 
+.nav a {
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color:#3882F6;
+}
+
 .hero {
     display: flex;
     gap: 50px;
@@ -85,7 +103,6 @@ p {
 .hero-secondary, .header a {
     font-size: 18px;
     color: #E5E7EB;
-    text-decoration: none;
 }
 
 .information {
@@ -119,9 +136,8 @@ p {
     width: 150px;
 }
 
-.rounded-square {
+.info-pic {
     border-radius: 8px;
-    border: 2px solid #3882F6;
     width: 150px;
     height: 150px;
     margin: 4px;
@@ -131,6 +147,13 @@ p {
     background-color: #E5E7EB;
     margin: 0;
     padding: 50px 200px;
+}
+
+.quote-author {
+    font-size: 24px;
+    text-align: right;
+    font-weight: 900;
+    margin-top: 12px;
 }
 
 .cta-section {
